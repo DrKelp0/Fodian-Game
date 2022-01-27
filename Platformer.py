@@ -425,7 +425,7 @@ def main():
                     numb_collided += 1
                     time_cooldown += 3
 
-                elif numbc_collided == 1 and numb_collided == 4:
+                elif numbc_collided == 1 and numb_collided > 3:
                     print("You made it to the top?\n"
                           "Impossible!")
                     numbc_collided += 1
